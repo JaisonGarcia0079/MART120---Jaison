@@ -1,0 +1,1 @@
+The difference between GUI and CLI is entirely with how each interface interacts with different things. CUI interacts with different applications though commands, whereas GUI uses graphics instead of commands in order to interact with different applications. GUI = Graphics, CUI = Commands.
