@@ -1,0 +1,26 @@
+span {
+  color: white;
+  background-color: red;
+}
+
+#specificColor {
+  color: blue;
+  font-family: verdana;
+  font-size: 24px;
+}
+
+#specificColor{
+        color:blue;
+        font-family:verdana;
+        font-size:24px;
+    }
+
+    #specificLink{
+        color:red;
+        font-family:arial;
+        font-size:28px;
+    }
+
+body {
+  background-image: url("paper.gif");
+}
