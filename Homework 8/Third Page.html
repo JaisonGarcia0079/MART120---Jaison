@@ -1,0 +1,138 @@
+<html>
+    <head>
+    <title>Contact Form</title>
+    </head>
+<body>
+  <h1> Contact Form </h1>
+
+</html>
+
+<html>
+
+<html>
+        <head>
+            <title>External Style Sheet</title>
+            <!-- This link tag allows us to connect the HTML page to the external stylesheet -->
+            <!-- Once again, notice this is in between the head tags of the HTML page -->
+            <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        </head>
+    </html>
+<head>
+  <title>Embedded Style Example</title>
+  <!-- change the color to something else 
+    -->
+  <style>
+    span
+    {
+    background-color:
+    red;
+    }
+  </style>
+</head>
+
+<body>
+  <span>Page Selection.</span>
+  <br />
+</body>
+
+</html>
+
+
+    <body>
+
+<a href="home page.html">Go Back to Home </a>
+<br />
+<a href="second page.html">Page 2 - Short Story</a>
+   
+</html>
+
+
+</html>
+
+
+
+<html>
+
+<style>
+        input[type="text"]:invalid {
+            border: 1px solid red; 
+        }
+
+        .focus-red {
+            background-color: red;
+            color: white;
+        }
+    </style>
+
+<script>
+        function showPopup(event) {
+
+            event.preventDefault();
+
+
+            var firstName = document.getElementById("fName");
+            var lastName = document.getElementById("lName");
+            var termsYes = document.querySelector('input[name="terms"][value="Yes"]');
+            var termsNo = document.querySelector('input[name="terms"][value="No"]');
+
+
+            if (firstName.value.trim() === "") {
+                alert("Please enter your first name.");
+                firstName.focus();
+                return;
+            }
+
+
+            if (lastName.value.trim() === "") {
+                alert("Please enter your last name.");
+                lastName.focus();
+                return; 
+            }
+
+
+            if (termsNo.checked) {
+                alert("You must accept the terms of agreement in order to proceed.");
+                return; 
+            }
+
+
+            alert("Thank you for submitting your information!");
+        }
+    </script>    
+
+    <body>
+
+        
+        <form action="#" onsubmit="showPopup(event)">
+        First Name: <input type="text" id="fName" required><br>
+        Last Name: <input type="text" id="lName" required><br>
+        Email Address: <input type="text" id="email" required><br>
+
+        <h2>Do You Accept These Agreement Terms?</h2>
+        <input type="checkbox" name="terms" value="Yes" required> Yes<br>
+        <input type="checkbox" name="terms" value="No"> No<br>
+
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+
+
+ <html>
+
+<html>
+<head>
+  <title>Class Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+</body>
+
+
+
+</html>
+ 
